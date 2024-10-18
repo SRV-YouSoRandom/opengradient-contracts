@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -159,11 +159,11 @@
 	},
 	"sources": {
 		"contracts/test.sol": {
-			"keccak256": "0xdccfdf8e8cd17e88b180ad467b910a3e9a1202576f91707a590cf4ea344b31ee",
+			"keccak256": "0x9486ade4fddb7286f5302dc1e9d4b12a9a25fa241da1ac1e8b786982c0e1ead3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8c3fb94573723821618117c990b5b1ea7fcdd1f0b30fec291b27d73bd7eb742b",
-				"dweb:/ipfs/QmWgsYnzwQiji8GYdW2jhLfvdJQbNbHRu4HS2YMiDbi3n1"
+				"bzz-raw://1915e9b46ce1175ff2d1bfc421d5639afab8f16168584c9ef680b7c217b15ce9",
+				"dweb:/ipfs/QmT2nmW8KpRphqBQHzpq82MKfHJASDTUVAHhFnyTGua8Dd"
 			]
 		},
 		"opengradient-neuroml/src/OGInference.sol": {
