@@ -1,0 +1,179 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "LlmInferenceError",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "ModelInferenceError",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "result",
+						"type": "string"
+					}
+				],
+				"name": "LlmInferenceCompleted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "isSimulation",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "int128",
+						"name": "value",
+						"type": "int128"
+					},
+					{
+						"indexed": false,
+						"internalType": "int128",
+						"name": "decimals",
+						"type": "int128"
+					}
+				],
+				"name": "ModelInferenceCompleted",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "int128",
+						"name": "",
+						"type": "int128"
+					},
+					{
+						"internalType": "int128",
+						"name": "",
+						"type": "int128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resultNumber",
+				"outputs": [
+					{
+						"internalType": "int128",
+						"name": "value",
+						"type": "int128"
+					},
+					{
+						"internalType": "int128",
+						"name": "decimals",
+						"type": "int128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resultString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "run",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "runLlm",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "runTee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "runVanilla",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test.sol": "Test"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test.sol": {
+			"keccak256": "0xdccfdf8e8cd17e88b180ad467b910a3e9a1202576f91707a590cf4ea344b31ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c3fb94573723821618117c990b5b1ea7fcdd1f0b30fec291b27d73bd7eb742b",
+				"dweb:/ipfs/QmWgsYnzwQiji8GYdW2jhLfvdJQbNbHRu4HS2YMiDbi3n1"
+			]
+		},
+		"opengradient-neuroml/src/OGInference.sol": {
+			"keccak256": "0xfbda937c5c04c1773bf279f6bb8ccafc6d35f3b2efbc187be8ffe0012fbd7de3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://702c423c3bc1a34344c32a43ffecbef60cf2d5b825cea9a33fd678eccfe56e7d",
+				"dweb:/ipfs/QmYVmaXt9B2Mz9GUnR5xpU1W2twV6g7bNMmQNXwEANQfCr"
+			]
+		}
+	},
+	"version": 1
+}

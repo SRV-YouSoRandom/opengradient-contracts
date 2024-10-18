@@ -1,0 +1,21 @@
+{
+  "name": "opengradient-neuroml",
+  "version": "1.0.1",
+  "description": "A Solidity library for using inference on OpenGradient",
+  "main": "index.js",
+  "scripts": {
+    "compile": "forge build",
+    "test": "forge test",
+    "prepublishOnly": "npm run compile"
+  },
+  "keywords": ["solidity", "ethereum", "library", "foundry"],
+  "author": "Adam Balogh",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "index.js",
+    "out/*.json",
+    "src/*.sol"
+  ]
+}
