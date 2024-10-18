@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
 
-import "opengradient-neuroml/src/OGInference.sol";
+import "https://github.com/SRV-YouSoRandom/opengradient-contracts/blob/main/opengradient-neuroml/src/OGInference.sol";
 
 contract Test {
 
